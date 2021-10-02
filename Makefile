@@ -7,6 +7,5 @@ test:
 pep8:
 	flake8
 
-
 migrate:
 	./manage.py migrate
