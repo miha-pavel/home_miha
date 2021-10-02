@@ -1,0 +1,12 @@
+
+How to install Django
+https://docs.djangoproject.com/en/3.2/topics/install/#installing-development-version
+
+pip freeze
+python -m django --version
+python -m pip install Django
+python -m django --version
+pip freeze
+django-admin startproject home_miha
+python manage.py runserver
+pip freeze > requirements.txt
